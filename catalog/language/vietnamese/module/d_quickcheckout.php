@@ -1,0 +1,19 @@
+<?php
+$_['option_register_payment_address_title']	=	'Chi tiết thanh toán';
+$_['option_register_shipping_address_title']	=	'Chi tiết giao hàng';
+$_['option_register_shipping_method_title']	=	'Phương thức vận chuyển';
+$_['option_register_payment_method_title']	=	'Phương thức thanh toán';
+$_['option_guest_payment_address_title']	=	'Chi tiết thanh toán';
+$_['option_guest_shipping_address_title']	=	'Chi tiết giao hàng';
+$_['option_guest_shipping_method_title']	=	'Phương thức vận chuyển';
+$_['option_guest_payment_method_title']	=	'Phương thức thanh toán';
+$_['option_logged_payment_address_title']	=	'Địa chỉ thanh toán';
+$_['option_logged_shipping_address_title']	=	'Địa chỉ giao hàng';
+$_['option_logged_shipping_method_title']	=	'Phương thức vận chuyển';
+$_['option_logged_payment_method_title']	=	'Phương thức thanh toán';
+$_['entry_email_confirm']	=	'Xác nhận Email';
+$_['error_email_confirm']	=	'Email xác nhận không khớp với email đã nhập!';
+$_['step_option_guest_desciption']	=	'Sử dụng tính năng mua hàng nhanh (không cần đăng ký tài khoản)';
+$_['error_step_payment_address_fields_company']	=	'Tên công ty từ 3 đến 128 ký tự';
+$_['error_step_shipping_address_fields_company']	=	'Tên công ty từ 3 đến 128 ký tự';
+$_['error_step_confirm_fields_comment']	=	'Vui lòng điền yêu cầu của bạn vào đặt mượn';

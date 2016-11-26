@@ -1,0 +1,26 @@
+<?php
+$_['heading_title']	=	'Quản lý banner quảng cáo';
+$_['text_success']	=	'Bạn đã chỉnh sửa thành công!';
+$_['text_default']	=	'Mặc định';
+$_['text_image_manager']	=	'Quản lý hình ảnh';
+$_['text_browse']	=	'Duyệt file';
+$_['text_clear']	=	'Xóa Ảnh';
+$_['text_list']	=	'Danh mục banner quảng cáo';
+$_['text_add']	=	'Thêm banner quảng cáo';
+$_['text_edit']	=	'Chỉnh sửa banner quảng cáo';
+$_['column_name']	=	'Tên banner quảng cáo';
+$_['column_status']	=	'Trạng thái';
+$_['column_action']	=	'Thao tác';
+$_['entry_name']	=	'Tên banner quảng cáo:';
+$_['entry_title']	=	'Tiêu đề';
+$_['entry_link']	=	'Liên kết';
+$_['entry_image']	=	'Hình ảnh';
+$_['entry_status']	=	'Trạng thái';
+$_['entry_sort_order']	=	'Thứ tự';
+$_['error_permission']	=	'Cảnh báo: Bạn không có quyền sửa đổi mục này!';
+$_['error_name']	=	'Tên banner quảng cáo phải có từ 3 đến 64 ký tự!';
+$_['error_title']	=	'Tiêu đề banner quảng cáo phải có từ 3 đến 64 ký tự!';
+$_['error_default']	=	'Cảnh báo: cách trình bày này không thể bị xóa khi nó hiện thời được gán mặc định văn phòng!';
+$_['error_instrument']	=	'Cảnh báo: cách trình bày này không thể bị xóa khi nó hiện thời được gán tới %s dụng cụ!';
+$_['error_category']	=	'Cảnh báo: cách trình bày này không thể bị xóa khi nó hiện thời được gán tới %s danh mục!';
+$_['error_information']	=	'Cảnh báo: cách trình bày này không thể bị xóa khi nó hiện thời được gán tới %s trang thông tin!';

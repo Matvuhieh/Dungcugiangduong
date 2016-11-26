@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#reservation_table table td {
+		box-shadow: 1px 1px 0px #999;	
+		padding: 0px;
+		width: 75px;
+		height: 75px;
+		min-height: 75px;
+	  max-height: 75px;
+		min-width: 75px;
+		max-width: 75px; 
+	  opacity: 0.85;
+	}
+	
+#reservation_table table tr:first-child td{
+	opacity: 1;
+}
+
+#reservation_table table tr:hover > td {
+	opacity: 1;
+}
+
+#overlay_reservation {
+	display: none;
+	top: 0px;
+	left: 0px;
+	background:url(../image/bg-overlay.png) repeat;  
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+  position: fixed;
+}
+
+#overlay_reservation_content {
+	width: 800px;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 5%;
+	border: 3px solid #ddd;
+	border-radius: 10px;
+	padding-bottom: 40px;
+}
+
+#date_filters {
+	width: 100%;
+	clear: both;
+	padding: 0px 0px 15px 0px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+
+#reservation_table .td_editable {
+	cursor: pointer;
+	background:url(../image/no-reservation.png) top left;  
+}
+
+
+#reservation_table .td_internal {
+	text-align: center;
+}
+
+#reservation_table .td_pending {
+	background:url(../image/pending.png) repeat;  
+}
+
+#reservation_table .td_complete {
+	background:url(../image/complete.png) repeat;  
+}
+
+#reservation_table  .first_day_td_complete {
+	background:url(../image/complete-first-day.png) repeat;  
+}
+
+#reservation_table  .first_day_td_pending {
+	background:url(../image/pending-first-day.png) repeat;  
+}
+
+#reservation_table  .last_day_td_complete {
+	background:url(../image/complete-last-day.png) repeat;  
+}
+
+#reservation_table  .last_day_td_pending {
+	background:url(../image/pending-last-day.png) repeat;  
+}
+
+#reservation_table .first_last_day_td_complete {
+	background:url(../image/complete-first-day.png) repeat;  
+}
+
+#reservation_table .first_last_day_td_pending {
+	background:url(../image/pending-first-day.png) repeat;  
+}
+
+
+#reservation_table  .last_day {
+	border-right: 2px solid #666;
+}
+
+#reservation_table .td_complete_last_day {
+	background:url(../image/complete-last-day.png) top left;  
+}
+
+#reservation_table .td_pending_first_day {
+	background:url(../image/pending-first-day.png) top left;  
+}
+
+#reservation_table .td_pending_last_day {
+	background:url(../image/pending-last-day.png) top left;  
+}
+
+#reservation_table .td_allotment {
+	width: 150px;
+	min-width: 150px;
+	max-width: 150px;
+	background: #3399cc;
+	color: #fff;
+	padding-left: 5px;
+	text-transform: uppercase;
+	font-size: 13px;
+	border-radius: 20px 0px 0px 5px;
+	box-shadow: -1px 1px 2px 1px #ddd;
+}
+
+
+#add_update_reservation {
+}
+
+
+#add_update_reservation h1 {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+#add_update_reservation > span {
+	width: 23.5%;
+	margin-left: 1.5%;
+	float: left;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+#add_update_reservation span label {
+	float: left;
+	clear: both;
+	width: 100%;
+	font-weight: bold;
+}
+
+#add_update_reservation span input, #add_update_reservation span select {
+	float: left;
+}
+
+#add_update_reservation #reservation_add_edit_command {
+	clear: both;
+	margin-top: 16px;
+	padding-left: 10px;
+}
+
+tr.tr_header td {
+}
+
+span.reservation_day_string {
+	float: left;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	background: #cc6666;
+	color: #fff;
+	padding: 5px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+span.reservation_day_number {
+	float: left;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	font-size: 20px;
+	padding: 4px 0px;
+}
+
+span.reservation_month {
+	float: left;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 2px 0px;
+}
+
+.td_allotment span {
+	font-size: 10px;
+}
+
+#reservation_mailto {
+	display: none;
+	width: 26px;
+	height: 26px;
+	background:url(../image/reservation_mail.png) top left no-repeat;
+	float: left;
+	margin-left: 3px;
+}
+
+#reservation_table {
+	margin: 0 auto;
+	border: 1px solid #d3d3d3;
+	width: 99%;
+	padding: 0.5%;
+	overflow: scroll;
+}
+
+
+#div_legend {
+	width: 100%;
+	clear: both;
+	text-transform: uppercase;
+}
+
+#div_legend table td.separate {
+	padding-right: 30px;
+}
+
+
+
+.legend {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+}
+
+.legend_complete {
+	background:url(../image/complete.png) repeat;  
+}
+
+.legend_pending {
+	background:url(../image/pending.png) repeat;  
+}
+
+.label_no_reservation {
+	background:url(../image/no-reservation.png) top left;  
+}
+
+.legend_pending_first {
+	background:url(../image/pending-first-day.png) repeat;  
+}
+
+.legend_complete_first {
+	background:url(../image/complete-first-day.png) repeat;  
+}
+
+
+.legend_pending_last {
+	background:url(../image/pending-last-day.png) repeat;  
+}
+
+.legend_complete_last {
+	background:url(../image/complete-last-day.png) repeat;  
+}
+
+

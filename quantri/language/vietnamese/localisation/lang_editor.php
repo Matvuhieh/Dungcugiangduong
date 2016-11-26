@@ -1,0 +1,23 @@
+<?php
+$_['heading_title']	=	'Chỉnh sửa Ngôn ngữ ';
+$_['heading_version']	=	'v1.0';
+$_['text_localisation']	=	'Localisations';
+$_['text_success']	=	'Thành công: Bạn vừa hiệu chỉnh ngôn ngữ!';
+$_['entry_frontend']	=	'Trang chính';
+$_['entry_backend']	=	'Trang quản lý';
+$_['entry_languages']	=	'Ngôn ngữ';
+$_['entry_code']	=	'Mã';
+$_['entry_directory']	=	'Thư mục';
+$_['entry_locale']	=	'Locale:';
+$_['entry_permissions']	=	'Phân quyền';
+$_['entry_showhide']	=	'Hiện/Ẩn';
+$_['entry_showhideall']	=	'Hiện / Ẩn tất cả';
+$_['entry_saving']	=	'Đang lưu...';
+$_['entry_saved']	=	'Đã lưu';
+$_['entry_search']	=	'Nhập và nhấn Enter';
+$_['error_permission']	=	'Cảnh báo: Bạn không có quyền chỉnh sửa ngôn ngữ.';
+$_['error_dimension']	=	'Width &amp; Height dimensions required!';
+$_['error_no_selections']	=	'Hãy chọn một hoặc nhiều gói ngôn ngữ.';
+$_['error_writable']	=	'Có thể ghi';
+$_['error_unwritable']	=	'Không thể ghi';
+$_['text_edit']	=	'Sửa';

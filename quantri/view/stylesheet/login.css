@@ -1,0 +1,113 @@
+header {
+	display: none;
+}
+body {
+	background: #000 url('../image/login-background.jpg');
+	background-size: cover;
+	font-size: 14px;
+}
+#container {
+	background: none;
+}
+#content {
+	position: absolute;
+	top: 15%;
+	left: 0px;
+	width: 100%;
+}
+.panel-default, .panel-default .panel-heading {
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+.panel-heading .panel-title {
+	color: #FFF;
+	font-size: 32px;
+	text-align: center;
+	font-family: 'OpenSans-Light';
+}
+.panel-heading .panel-title i{
+	font-size: 32px;
+}
+.form-group + .form-group {
+	border: none;
+}
+.btn-submit {
+	position: absolute;
+	right: 0px;
+	z-index: 99;
+	font-size: 16px;
+	background: #FFF;
+	border: none;
+	outline: none;
+	color: #555;
+	outline: 0px;
+	height: 42px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.btn-submit:hover, .btn-submit:focus, .btn-submit:active {
+	background-color: #FFF !important;
+	color: #555 !important;
+	outline: 0px !important;
+}
+.input-group-addon:first-child {
+	border-right: 0px;
+	background: transparent;
+	color: #FFF;
+	font-size: 22px;
+	border-color: #fff;
+}
+.help-block a {
+	color: #FFF;
+}
+.form-control, .form-control:hover, .form-control:focus {
+	font-size: 16px;
+	height: 42px;
+	border-color: #fff;
+	background: transparent;
+	color: #fff;
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+.form-control::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+	color: #fff;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #fff;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #fff;
+}
+.company-address{
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	bottom: 45px;
+	background: rgba(255,0,4,0.50);
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+@media (max-width: 1280px) {
+	#content {
+		top: 10%;
+	}
+}
+
+@media (max-width: 768px) {
+	#content {
+		top: 20px;
+	}
+	
+	.company-address {
+		display: none;
+	}
+}
